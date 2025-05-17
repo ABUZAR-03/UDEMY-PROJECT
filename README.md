@@ -14,11 +14,6 @@ A simple static clone of the Udemy website built using **HTML** and **CSS**. Thi
 - Responsive Design with Flexbox & Media Queries
 
 ## 📦 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/udemy-clone.git
-   cd udemy-clone
     
    Open in browser
 
