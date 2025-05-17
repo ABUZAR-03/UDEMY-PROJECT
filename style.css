@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.navbar{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid black 1px;
+    align-items: center;
+    
+}
+.navbar__s1__title{
+    color: #A435F0;
+}
+.navbar__s2__{
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 25px;
+    width: 60%;
+    margin: 5px;
+    display: flex;
+}
+.navbar__s2 input{
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    font-size: 16px;
+}
+.navbar__s3{
+    margin: 2px;
+    display: flex;
+    gap: 20px;
+}
+/* this is second position */
+.navbar2{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border-bottom: solid white 2px;
+}
+.navbar2 p{
+    background-color: rgb(164, 53, 240);
+    border-radius: 30px;
+    padding: 10px;
+    color: white;
+}
+/* this is introduction image */
+.sale-image img{
+    width: 100%;
+    height: 300px;
+}
+/* recommended title */
+.recommended{
+    padding: 10px;
+}
+.recommended-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.course-card{
+    width: 300px;
+}
+.course-card img{
+    width: 100%;
+}
+.topic-recommended{
+    padding: 10px;
+}
+.topic-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+.topic-container p{
+    border: solid 1px black;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 10px;
+}
+.most-popular{
+    margin-top: 10px;
+    width: 100%;
+}
+.most-popular__title img{
+    width: 20%;
+}
+.most-popular__title{
+    display: flex;
+}
+/* footer section */
+.footer{
+    margin-top: 30px;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 300px;
+}
+.footer-one{
+    display: flex;
+    gap: 20px;
+}
+.footer-one p{
+    margin: 20px;
+}
+.footer-two {
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
